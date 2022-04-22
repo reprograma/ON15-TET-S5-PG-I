@@ -1,3 +1,5 @@
+## Exercício lindo para vocês ❤️
+
 Segundo o Só Biologia a “Síntese de RNA (mensageiro, por exemplo) se inicia com a separação das duas fitas de DNA. Apenas uma das fitas do DNA serve de molde para a produção da molécula de RNAm. A outra fita não é transcrita. Essa é uma das diferenças entre a duplicação do DNA e a produção do RNA.”.
 
 Essa síntese estava sendo analisada em um centro de genética, através de equipamento que geraram a cadeia de DNA e RNA de modo textual.
@@ -19,6 +21,7 @@ RNA - UACGGCUUUAAACGC
 Ou seja, o processo consiste basicamente na conversão:
 
 | DNA | RNA |
+| --- | --- |
 | G   | C   |
 | C   | G   |
 | T   | A   |
