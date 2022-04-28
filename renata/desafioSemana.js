@@ -53,10 +53,13 @@ dnaTranscriber.toRna('ACGTGGTCTTAA')) //=> UGCACCAGAAUU
 
 class DnaTranscriber {
     constructor(dna) {
-        this.dna = dna
+        this.dna = dna.toUpperCase();
     }
 
+
+    // Professora tentei fazer de duas formas, mas não sei se está correta dessa forma.
     alterarRNA() {
+        // console.log(this.dna);
         let rna = this.dna.replace(/G/g, "c").replace(/C/g, "g").replace(/T/g, "a").replace(/A/g, "u");
 
         return (`O seu DNA é ${this.dna} e o seu RNA é ${rna.toUpperCase()}.`);
@@ -86,7 +89,13 @@ class DnaTranscriber {
     }
 }
 
-const dnaTranscriber1 = new DnaTranscriber('ATGCCGAAATTTGCG')
+
+
+const dnaTranscriber1 = new DnaTranscriber('ATGCCGAAATTTGCG');
 console.log(dnaTranscriber1.alterarRNA());
 console.log(dnaTranscriber1.alterarParaRNA());
 
+console.log("---------------------------------");
+const dnaTranscriber2 = new DnaTranscriber('acuggaacuaacc');
+console.log(dnaTranscriber2.alterarRNA());
+console.log(dnaTranscriber2.alterarParaRNA());
