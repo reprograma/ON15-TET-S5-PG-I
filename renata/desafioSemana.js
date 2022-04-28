@@ -57,7 +57,11 @@ class DnaTranscriber {
     }
 
 
-    // Professora tentei fazer de duas formas, mas não sei se está correta dessa forma.
+    // Professora tentei fazer de duas formas, mas não sei se estão corretas dessas formas.
+    // Primeiro pensei na lista e em ir percorrendo ela e alterando os caracteres e armazenando em uma lista nova.
+    // Dessa outra forma pensei que dava para fazer algo do tipo, já ir alterando enquanto percorria a lista, mas os caracteres estavam se sobrescrevendo, encontrei essa forma de ir colocando em letras minúsculas. E para não ter nennhum problema. Já transformo em maiúsculas no início.
+    
+    
     alterarRNA() {
         // console.log(this.dna);
         let rna = this.dna.replace(/G/g, "c").replace(/C/g, "g").replace(/T/g, "a").replace(/A/g, "u");
