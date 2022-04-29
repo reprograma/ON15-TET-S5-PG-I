@@ -30,11 +30,9 @@ class DnaTranscriber {
     });
 
     // Retorno final:
-    console.log(filamentoRna)
-  }
+    console.log(`A sequência de RNA será:  ${filamentoRna}`)
+   }
 }
 
 const transcriber = new DnaTranscriber();
 transcriber.converterDna("ACGTGGTCTTAA")
-
-
