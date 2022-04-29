@@ -1,4 +1,4 @@
-let objeto = {
+ let objeto = {
     "chave": "valor"
 };
 
@@ -16,4 +16,3 @@ let casa = [
         "piscina": false
     }
 ];
-
