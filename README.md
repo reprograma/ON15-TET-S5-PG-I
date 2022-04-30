@@ -5,4 +5,4 @@ Oi Hannah, segue meu exercicio da semana. Confesso que foi MUITO sofrido, mais a
 ```
 Eu utilizei o indexOf + If 
 ```
-Obrigada ❤️
+Obrigada ❤️#atividade-semana-5
