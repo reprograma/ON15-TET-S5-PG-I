@@ -55,25 +55,25 @@ class DnaTranscriber {
     constructor(dna) {
         this.dna = dna.toUpperCase();
     }
-
-
-    // Professora tentei fazer de duas formas, mas não sei se estão corretas dessas formas.
-    // Primeiro pensei na lista e em ir percorrendo ela e alterando os caracteres e armazenando em uma lista nova.
-    // Dessa outra forma pensei que dava para fazer algo do tipo, já ir alterando enquanto percorria a lista, mas os caracteres estavam se sobrescrevendo, encontrei essa forma de ir colocando em letras minúsculas. E para não ter nennhum problema. Já transformo em maiúsculas no início.
     
     
+//Tentei fazer de duas formas, 
+// a 1ª foi utilizando o replace, mas sem passar pelo for, mas dessa forma ele foi substituindo as letras, por isso que transformei em minúsculas.
+// a 2º foi usando o FOR, percorrendo a lista e alterando a sequência e armazenando na lista rna e ao final, transformando a lista em string com o join
+
+
     alterarRNA() {
         // console.log(this.dna);
         let rna = this.dna.replace(/G/g, "c").replace(/C/g, "g").replace(/T/g, "a").replace(/A/g, "u");
-
+        
         return (`O seu DNA é ${this.dna} e o seu RNA é ${rna.toUpperCase()}.`);
     }
-
-
+    
+    
     alterarParaRNA() {
-
+        
+        
         this.rna = [];
-
         // console.log(this.rna);
 
         for (let i = 0; i < this.dna.length; i++) {
